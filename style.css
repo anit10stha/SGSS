@@ -711,3 +711,19 @@ button[type="submit"]:hover {
  font-size: 14px;
 }
 /* copyright section ends */
+
+/* custom scrollbar */
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-track{
+  background: linear-gradient(blue,red);
+}
+
+::-webkit-scrollbar-thumb{
+  background: rgba(13, 230, 13, 0.898);
+  border-radius: 5px;
+}
+  border-radius: 5px;
+}
